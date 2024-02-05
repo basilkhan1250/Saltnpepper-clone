@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #ffffff;
-    /* font-family: "Poppins", sans-serif; */
+    /* font-family: 'Saira Stencil One', sans-serif; */
 }
 
 body {
@@ -74,13 +74,21 @@ html {
 .mt-2 {
     margin-top: 20px;
 }
+.mt-3{
+    margin-top: 30px;
+}
 
 .mr-5 {
     margin-right: 50px;
 }
-
-.ml-5 {
+.ml-5{
     margin-left: 50px;
+}
+.ml-65{
+    margin-left: 65px;
+}
+.ml-10 {
+    margin-left: 100px;
 }
 
 .cursor {
@@ -158,12 +166,12 @@ html {
     font-size: x-large;
 }
 
-p {
+.large-font {
     font-size: large;
 }
 
 .bg-radius {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .order-btn {
@@ -185,8 +193,11 @@ p {
     flex-basis: 40%;
 }
 
-.flex-item6 {
+.flex-item7 {
     flex-basis: 70%;
+}
+.flex-item3{
+    flex-basis: 26%;
 }
 
 .space {
@@ -202,12 +213,27 @@ p {
 }
 
 .getdir-btn {
+    display: inline-block;
     border: 1px solid white;
     border-radius: 25px;
     padding: 15px 30px;
     background-color: transparent;
 }
 
+
 .img-width {
     width: 450px;
+}
+.express-img-width{
+    width: 300px;
+}
+.pr-1{
+    padding-right: 50px;
+}
+.text-align-center{
+    text-align: center;
+}
+.v-franchise-img{
+    height: 350px;
+    width: 600px;
 }
