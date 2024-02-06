@@ -66,6 +66,9 @@ html {
 .gap {
     gap: 20px;
 }
+.gap25{
+    gap: 25px;
+}
 
 .mt-1 {
     margin-top: 10px;
@@ -80,7 +83,7 @@ html {
 
 .mr-5 {
     margin-right: 50px;
-}
+}   
 .ml-5{
     margin-left: 50px;
 }
@@ -133,6 +136,9 @@ html {
 .pt-5 {
     padding-top: 50px;
 }
+.pt-10{
+    padding-top: 100px;
+}
 
 .pb-1 {
     padding-bottom: 10px;
@@ -154,14 +160,19 @@ html {
     padding-bottom: 50px;
 }
 
-.pr-1 {
+.pr-2 {
     padding-right: 20px;
+}
+.pl-2{
+    padding-left: 20px;
 }
 
 .food {
     width: 100%;
 }
-
+.larger-font{
+    font-size: xx-large;
+}
 .font {
     font-size: x-large;
 }
@@ -173,7 +184,9 @@ html {
 .bg-radius {
     border-radius: 10px;
 }
-
+.bg-radius5{
+    border-radius: 3px;
+}
 .order-btn {
     border: 1px solid white;
     border-radius: 25px;
@@ -207,6 +220,9 @@ html {
 .letter-color {
     color: #ed1c24;
 }
+.letter-color-black{
+    color: #000000;
+}
 
 .font-size {
     font-size: large;
@@ -236,4 +252,16 @@ html {
 .v-franchise-img{
     height: 350px;
     width: 600px;
+}
+.ex-franchise{
+    height: 220px;
+    width: 250px;
+    background-color: #ffffff;
+}
+.inline{
+    display: inline;
+}
+.socialpic{
+    height: 220px;
+    width: 240px;
 }
