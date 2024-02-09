@@ -72,6 +72,15 @@ html {
 .gap1 {
     gap: 10px;
 }
+.gap50{
+    gap: 50px;
+}
+.gap60{
+    gap: 60px;
+}
+.gap100{
+    gap: 100px;
+}
 
 .gap25 {
     gap: 25px;
@@ -497,4 +506,18 @@ html {
 }
 .border{
     border: 1px solid white;
+}
+.flex-item2{
+    flex-basis: 20px;
+}
+.flex-item8{
+    flex-basis: 80px;
+}
+.checked:hover {
+    color: #ed1c24;
+}
+.title{
+    width: 530px;
+    height: 45px;
+    border-radius: 6px;   
 }
