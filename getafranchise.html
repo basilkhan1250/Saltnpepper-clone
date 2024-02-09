@@ -2,15 +2,11 @@
 <html lang="en">
 
 <head>
-    <!-- Font Awesome Icon Library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="./style.css">
     <title>Salt'n Pepper</title>
 </head>
 
 <body>
-
     <header class="d-flex wrap justify-around align-center mt-1">
         <div>
             <img class="logo" src="pics/logo.webp" alt="logo">
@@ -22,100 +18,69 @@
                     <p class="nav-items"><a class="none-decor" href="./about.html">About us</a></p>
                     <p class="nav-items"><a class="none-decor" href="./publications.html">Publications</a></p>
                     <p class="nav-items"><a class="none-decor" href="./feedback.html">Feed back</a></p>
-                    <button id="franchise" class="cursor"><a class="none-decor" href="./getafranchise.html">Get a Franchise</a></button>
+                    <button id="franchise" class="cursor"><a class="none-decor" href="./getafranchise.html">Get a
+                            Franchise</a></button>
                     <button id="order" class="cursor">Order Online</button>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div class="d-flex justify-center wrap pt-6">
-            <h1 class="larger-font">Rate Your Experience</h1>
+        <div class="d-flex justify-center wrap pt-8 large-font">
+            <h1>Get a Franchise</h1>
         </div>
-
-        <div class="d-flex wrap justify-center gap60 pt-3  ">
-            <div>
-                <h2>Food Quality<h2>
-                        <br />
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-            </div>
-            <div>
-                <h2>Food Quantity<h2>
-                        <br />
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-            </div>
-            <div>
-                <h2>Ambiance<h2>
-                        <br />
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-            </div>
-            <div>
-                <h2>Service<h2>
-                        <br />
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-            </div>
-        </div>
-
-        <div class="d-flex wrap justify-around">
-            <div class="pt-4">
-                <label for="title">
-                    <h2>Title</h2>
+        <div class="d-flex wrap justify-center pt-5 gap25">
+            <div class="flex-item"><label for="title">
+                    <h1>Name</h1>
                 </label><br />
                 <input type="type" class="title black" name="title" value="">
             </div>
-        </div>
-        <div class="d-flex wrap justify-around">
-            <div class="pt-3">
-                <label for="title">
-                    <h2>Comment</h2>
-                </label><br />
-                <input type="type" class="title black" name="title" value="">
+            <div class="flex-item">
+                <div class="flex-item"><label for="title">
+                        <h1>Email</h1>
+                    </label><br />
+                    <input type="email" class="title black" name="title" value="">
+                </div>
             </div>
-        </div>
-        <div class="d-flex wrap justify-around">
-            <div class="pt-3">
-                <label for="title">
-                    <h2>Full Name</h2>
-                </label><br />
-                <input type="type" class="title black" name="title" value="">
-            </div>
-        </div>
-        <div class="d-flex wrap justify-around">
-            <div class="pt-3">
-                <label for="title">
-                    <h2>Email</h2>
-                </label><br />
-                <input type="email" class="title black" name="title" value="">
-            </div>
-        </div>
-        <div class="d-flex wrap justify-around">
-            <div class="pt-3">
-                <label for="title">
-                    <h2>Phone Number</h2>
+            <div class="flex-item"><label for="title">
+                    <h1>Phone Number</h1>
                 </label><br />
                 <input type="number" class="title black" name="title" value="">
             </div>
+            <div class="flex-item">
+                <div class="flex-item"><label for="title">
+                        <h1>Mobile Number</h1>
+                    </label><br />
+                    <input type="email" class="title black" name="title" value="">
+                </div>
+            </div>
+            <div class="flex-item"><label for="title">
+                    <h1>City</h1>
+                </label><br />
+                <input type="type" class="title black" name="title" value="">
+            </div>
+            <div class="flex-item">
+                <div class="flex-item"><label for="title">
+                        <h1>Province</h1>
+                    </label><br />
+                    <input type="email" class="title black" name="title" value="">
+                </div>
+            </div>
+            <div class="flex-item"><label for="title">
+                    <h1>Country</h1>
+                </label><br />
+                <input type="type" class="title black" name="title" value="">
+            </div>
+            <div class="flex-item">
+                <div class="flex-item"><label for="title">
+                        <h1>Brands</h1>
+                    </label><br />
+                    <input type="text" class="title black" name="title" placeholder=" Which Brands are you interested in">
+                </div>
+            </div>
         </div>
-        <div class="d-flex justify-evenly pl-10 ml-10 pt-2 ">
-            <button id="order" class="cursor ">Post Feedback</button>
-            <button id="order" class="cursor hidden ">Post Feedback</button>
-            <button id="order" class="cursor hidden ">Post Feedback</button>
+        <div class="d-flex wrap order pl-9 pt-3">
+            <button id="orderl">SUBMIT</button>
         </div>
     </main>
 
@@ -166,7 +131,6 @@
             <p class=" align-center large-font basil text-align-center pt-1">Created by Basil Khan</p>
         </div>
     </footer>
-
 </body>
 
 </html>

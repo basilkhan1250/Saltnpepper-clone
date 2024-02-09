@@ -142,6 +142,21 @@ html {
 .mr-5 {
     margin-right: 50px;
 }
+.mr-6 {
+    margin-right: 60px;
+}
+.mr-7 {
+    margin-right: 70px;
+}
+.mr-8 {
+    margin-right: 80px;
+}
+.mr-9 {
+    margin-right: 90px;
+}
+.mr-10 {
+    margin-right: 100px;
+}
 
 .ml-1 {
     margin-left: 10px;
@@ -216,6 +231,12 @@ html {
 
 .pt-7 {
     padding-top: 70px;
+}
+.pt-8{
+    padding-top: 80px;
+}
+.pt-9{
+    padding-top: 90px;
 }
 
 .pt-10 {
@@ -504,6 +525,10 @@ html {
     height: 480px;
     width: 520px;
 }
+.book-size2:hover{
+    height: 500px;
+    width: 540px;
+}
 .border{
     border: 1px solid white;
 }
@@ -520,4 +545,19 @@ html {
     width: 530px;
     height: 45px;
     border-radius: 6px;   
+}
+.red-star{
+    height: 1px;
+    width: 1px;
+    background-color: #ed1c24;
+}
+#orderl{
+    border-radius: 25px;
+    border: 0px;
+    background-color: #ed1c24;
+    padding: 15px 20px;
+    width: 150px;
+}
+.black{
+    color: #000000;
 }
