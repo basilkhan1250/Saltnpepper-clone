@@ -8,7 +8,6 @@
 
 body {
     background-color: #000000;
-    font-size: 62.5%;
 }
 
 .gray {
@@ -464,8 +463,8 @@ html {
 }
 
 .about-imgs {
-    height: 350px;
-    width: 550px;
+    height: 300px;
+    width: 500px;
     border-radius: 4px;
 }
 
@@ -491,4 +490,11 @@ html {
 .village-franchise{
     height: 280px;
     width: 500px;
+}
+.book-size{
+    height: 480px;
+    width: 520px;
+}
+.border{
+    border: 1px solid white;
 }
